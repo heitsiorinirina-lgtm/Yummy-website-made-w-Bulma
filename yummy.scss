@@ -1,0 +1,8 @@
+$main-highlight-color: rgb(252, 2, 84);
+
+@use "bulma/sass" with (
+  $primary: $main-highlight-color,
+  $family-sans-serif: '"PT Sans", sans-serif'
+);
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
