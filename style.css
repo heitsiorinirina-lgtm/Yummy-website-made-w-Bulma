@@ -84,19 +84,19 @@
   --bulma-white-h: 221deg;
   --bulma-white-s: 14%;
   --bulma-white-l: 100%;
-  --bulma-white-invert-l: 4%;
-  --bulma-white-invert: hsl(221, 14%, 4%);
+  --bulma-white-invert-l: 20.7843137255%;
+  --bulma-white-invert: #353535;
   --bulma-white-on-scheme-l: 35%;
   --bulma-white-on-scheme: hsla(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-on-scheme-l), 1);
   --bulma-black: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1);
   --bulma-black-base: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1);
-  --bulma-black-rgb: 8.772, 9.6764, 11.628;
-  --bulma-black-h: 221deg;
-  --bulma-black-s: 14%;
-  --bulma-black-l: 4%;
+  --bulma-black-rgb: 53, 53, 53;
+  --bulma-black-h: 0deg;
+  --bulma-black-s: 0%;
+  --bulma-black-l: 21%;
   --bulma-black-invert-l: 100%;
   --bulma-black-invert: hsl(221, 14%, 100%);
-  --bulma-black-on-scheme-l: 4%;
+  --bulma-black-on-scheme-l: 20.7843137255%;
   --bulma-black-on-scheme: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-on-scheme-l), 1);
   --bulma-light: hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l), 1);
   --bulma-light-base: hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l), 1);
@@ -869,9 +869,9 @@
   --bulma-grey-lighter: hsl(221, 14%, 86%);
   --bulma-white-ter: hsl(221, 14%, 96%);
   --bulma-white-bis: hsl(221, 14%, 98%);
-  --bulma-shadow-h: 221deg;
-  --bulma-shadow-s: 14%;
-  --bulma-shadow-l: 4%;
+  --bulma-shadow-h: 0deg;
+  --bulma-shadow-s: 0%;
+  --bulma-shadow-l: 21%;
   --bulma-size-1: 3rem;
   --bulma-size-2: 2.5rem;
   --bulma-size-3: 2rem;
@@ -985,19 +985,19 @@
     --bulma-white-h: 221deg;
     --bulma-white-s: 14%;
     --bulma-white-l: 100%;
-    --bulma-white-invert-l: 4%;
-    --bulma-white-invert: hsl(221, 14%, 4%);
+    --bulma-white-invert-l: 20.7843137255%;
+    --bulma-white-invert: #353535;
     --bulma-white-on-scheme-l: 35%;
     --bulma-white-on-scheme: hsla(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-on-scheme-l), 1);
     --bulma-black: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1);
     --bulma-black-base: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1);
-    --bulma-black-rgb: 8.772, 9.6764, 11.628;
-    --bulma-black-h: 221deg;
-    --bulma-black-s: 14%;
-    --bulma-black-l: 4%;
+    --bulma-black-rgb: 53, 53, 53;
+    --bulma-black-h: 0deg;
+    --bulma-black-s: 0%;
+    --bulma-black-l: 21%;
     --bulma-black-invert-l: 100%;
     --bulma-black-invert: hsl(221, 14%, 100%);
-    --bulma-black-on-scheme-l: 4%;
+    --bulma-black-on-scheme-l: 20.7843137255%;
     --bulma-black-on-scheme: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-on-scheme-l), 1);
     --bulma-light: hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l), 1);
     --bulma-light-base: hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l), 1);
@@ -1770,9 +1770,9 @@
     --bulma-grey-lighter: hsl(221, 14%, 86%);
     --bulma-white-ter: hsl(221, 14%, 96%);
     --bulma-white-bis: hsl(221, 14%, 98%);
-    --bulma-shadow-h: 221deg;
-    --bulma-shadow-s: 14%;
-    --bulma-shadow-l: 4%;
+    --bulma-shadow-h: 0deg;
+    --bulma-shadow-s: 0%;
+    --bulma-shadow-l: 21%;
     --bulma-size-1: 3rem;
     --bulma-size-2: 2.5rem;
     --bulma-size-3: 2rem;
@@ -1786,7 +1786,7 @@
   :root {
     --bulma-white-on-scheme-l: 100%;
     --bulma-white-on-scheme: hsla(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-on-scheme-l), 1);
-    --bulma-black-on-scheme-l: -51%;
+    --bulma-black-on-scheme-l: 55.7843137255%;
     --bulma-black-on-scheme: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-on-scheme-l), 1);
     --bulma-light-on-scheme-l: 96%;
     --bulma-light-on-scheme: hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-on-scheme-l), 1);
@@ -1903,19 +1903,19 @@
   --bulma-white-h: 221deg;
   --bulma-white-s: 14%;
   --bulma-white-l: 100%;
-  --bulma-white-invert-l: 4%;
-  --bulma-white-invert: hsl(221, 14%, 4%);
+  --bulma-white-invert-l: 20.7843137255%;
+  --bulma-white-invert: #353535;
   --bulma-white-on-scheme-l: 35%;
   --bulma-white-on-scheme: hsla(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-on-scheme-l), 1);
   --bulma-black: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1);
   --bulma-black-base: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1);
-  --bulma-black-rgb: 8.772, 9.6764, 11.628;
-  --bulma-black-h: 221deg;
-  --bulma-black-s: 14%;
-  --bulma-black-l: 4%;
+  --bulma-black-rgb: 53, 53, 53;
+  --bulma-black-h: 0deg;
+  --bulma-black-s: 0%;
+  --bulma-black-l: 21%;
   --bulma-black-invert-l: 100%;
   --bulma-black-invert: hsl(221, 14%, 100%);
-  --bulma-black-on-scheme-l: 4%;
+  --bulma-black-on-scheme-l: 20.7843137255%;
   --bulma-black-on-scheme: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-on-scheme-l), 1);
   --bulma-light: hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l), 1);
   --bulma-light-base: hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l), 1);
@@ -2688,9 +2688,9 @@
   --bulma-grey-lighter: hsl(221, 14%, 86%);
   --bulma-white-ter: hsl(221, 14%, 96%);
   --bulma-white-bis: hsl(221, 14%, 98%);
-  --bulma-shadow-h: 221deg;
-  --bulma-shadow-s: 14%;
-  --bulma-shadow-l: 4%;
+  --bulma-shadow-h: 0deg;
+  --bulma-shadow-s: 0%;
+  --bulma-shadow-l: 21%;
   --bulma-size-1: 3rem;
   --bulma-size-2: 2.5rem;
   --bulma-size-3: 2rem;
@@ -2737,7 +2737,7 @@
 .theme-dark {
   --bulma-white-on-scheme-l: 100%;
   --bulma-white-on-scheme: hsla(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-on-scheme-l), 1);
-  --bulma-black-on-scheme-l: -51%;
+  --bulma-black-on-scheme-l: 55.7843137255%;
   --bulma-black-on-scheme: hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-on-scheme-l), 1);
   --bulma-light-on-scheme-l: 96%;
   --bulma-light-on-scheme: hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-on-scheme-l), 1);
@@ -21559,6 +21559,33 @@ has-background-danger.is-hoverable:active {
 .is-clickable {
   cursor: pointer !important;
   pointer-events: all !important;
+}
+
+.has-line-separator-after::after {
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 21px;
+  width: 2px;
+  background: #bbbcc0;
+  content: "";
+}
+
+.yummy-hover:hover {
+  color: rgb(252, 2, 84);
+  background-color: transparent;
+  transition: color 0.3s ease;
+}
+.yummy-hover:hover::after {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  top: 100%;
+  width: 100%;
+  height: 2px;
+  background: #fc0254;
+  content: "";
 }
 
 /*# sourceMappingURL=style.css.map */
