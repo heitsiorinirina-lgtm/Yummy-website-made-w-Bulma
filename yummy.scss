@@ -1,5 +1,6 @@
 $main-highlight-color: rgb(252, 2, 84);
 $text-black-color: #353535;
+$dropdown-border-radius: 0px;
 @use "bulma/sass" with (
   $primary: $main-highlight-color,
   $black: $text-black-color,
@@ -25,12 +26,36 @@ $text-black-color: #353535;
     &::before {
       position: absolute;
       left: 0;
-      top: 36.6px;
+      top: 80%;
       width: 100%;
       height: 2px;
       background: #fc0254;
       content: "";
     }
   }
+}
+
+.active {
+  color: rgb(252, 2, 84) !important;
+  background-color: transparent;
+}
+
+.active::after {
+  position: absolute;
+  left: 0;
+  top: 80%;
+  width: 100%;
+  height: 2px;
+  background: #fc0254;
+  content: "";
+}
+
+.navbar-dropdown {
+  border-radius: $dropdown-border-radius;
+  box-shadow: none;
+}
+
+a.navbar-item:hover {
+  background-color: transparent;
 }
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
