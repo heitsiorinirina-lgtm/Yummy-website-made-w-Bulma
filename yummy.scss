@@ -3,7 +3,8 @@ $text-black-color: #353535;
 @use "bulma/sass" with (
   $primary: $main-highlight-color,
   $black: $text-black-color,
-  $family-sans-serif: '"PT Sans", sans-serif'
+  $family-sans-serif: '"PT Sans", sans-serif',
+  $navbar-dropdown-border-style: none
 );
 
 .has-line-separator-after::after {
@@ -17,20 +18,19 @@ $text-black-color: #353535;
   content: "";
 }
 
-.yummy-hover:hover {
-  color: rgb(252, 2, 84);
-  background-color: transparent;
-  transition: color 0.3s ease;
-  &::after {
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    top: 100%;
-    width: 100%;
-    height: 2px;
-    background: #fc0254;
-    content: "";
+.yummy-hover {
+  &.has-text-dark:hover {
+    color: rgb(252, 2, 84) !important;
+    background-color: transparent;
+    &::before {
+      position: absolute;
+      left: 0;
+      top: 36.6px;
+      width: 100%;
+      height: 2px;
+      background: #fc0254;
+      content: "";
+    }
   }
 }
-
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");

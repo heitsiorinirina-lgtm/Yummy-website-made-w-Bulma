@@ -7188,7 +7188,7 @@ button.dropdown-item.is-selected {
   --bulma-navbar-dropdown-background-color: var(--bulma-scheme-main);
   --bulma-navbar-dropdown-border-l: var(--bulma-border-l);
   --bulma-navbar-dropdown-border-color: hsl(var(--bulma-navbar-h), var(--bulma-navbar-s), var(--bulma-navbar-dropdown-border-l));
-  --bulma-navbar-dropdown-border-style: solid;
+  --bulma-navbar-dropdown-border-style: none;
   --bulma-navbar-dropdown-border-width: 0.125em;
   --bulma-navbar-dropdown-offset: -0.25em;
   --bulma-navbar-dropdown-arrow: var(--bulma-link);
@@ -21572,16 +21572,14 @@ has-background-danger.is-hoverable:active {
   content: "";
 }
 
-.yummy-hover:hover {
-  color: rgb(252, 2, 84);
+.yummy-hover.has-text-dark:hover {
+  color: rgb(252, 2, 84) !important;
   background-color: transparent;
-  transition: color 0.3s ease;
 }
-.yummy-hover:hover::after {
+.yummy-hover.has-text-dark:hover::before {
   position: absolute;
   left: 0;
-  bottom: 0px;
-  top: 100%;
+  bottom: 10px;
   width: 100%;
   height: 2px;
   background: #fc0254;
