@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Yoga Studio Template" />
+    <meta name="keywords" content="Yoga, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Yummy | Template</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bulma.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/contactRemake.css" />
+    <script src="contact.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="./index.html">
+          <img src="img/little-logo.png" alt="Website logo" />
+        </a>
+
+        <a
+          id="burger"
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="mainNavbar"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item is-active" href="#">Home</a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Pages</a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="about-me.html">About Me</a>
+            <a class="navbar-item" href="categories.html">Categories</a>
+            <a class="navbar-item" href="recipe.html">Recipe</a>
+            <a class="navbar-item" href="blog.html">Blog</a>
+            <a class="navbar-item" href="contact.html">Contact</a>
+          </div>
+        </div>
+        <a class="navbar-item" href="recipe.html">Recipes</a>
+        <a class="navbar-item" href="categories.html">Best Of</a>
+        <a class="navbar-item" href="contact.html">Contact</a>
+        <div class="navbar-item">
+          <button class="button is-light">🔍</button>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Search Section Begin -->
+    <section
+      class="hero is-medium"
+      style="
+        background: url(&quot;img/search-bg.jpg&quot;) center/cover no-repeat;
+      "
+    >
+      <div class="hero-body">
+        <div class="container">
+          <form class="columns is-vcentered is-multiline">
+            <!-- Search Input -->
+            <div class="column is-4">
+              <div class="field">
+                <div class="control">
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="Search recipe"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Category -->
+            <div class="column is-3">
+              <div class="field">
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select id="category" aria-label="Category">
+                      <option value="">Category</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tags -->
+            <div class="column is-3">
+              <div class="field">
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select id="tag" aria-label="Tags">
+                      <option value="">Tags</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="column is-2">
+              <div class="field">
+                <div class="control">
+                  <button type="submit" class="button is-primary is-fullwidth">
+                    Search
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Search Section End -->
+
+    <!-- Contact Section Begin -->
+
+    <section class="section">
+      <div class="container">
+        <form class="box" action="#">
+          <h3 class="title is-4 has-text-centered mb-5">Leave a Comment</h3>
+
+          <div class="columns is-multiline">
+            <!-- Name -->
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Your name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Your name" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="column is-6">
+              <div class="field">
+                <label class="label">Your email</label>
+                <div class="control">
+                  <input class="input" type="email" placeholder="Your email" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Subject -->
+            <div class="column is-12">
+              <div class="field">
+                <label class="label">Subject</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Subject" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Comment -->
+            <div class="column is-12">
+              <div class="field">
+                <label class="label">Comment</label>
+                <div class="control">
+                  <textarea class="textarea" placeholder="Comment"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="has-text-centered mt-4">
+            <button type="submit" class="button is-primary">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+    <!-- Map Section Begin -->
+
+    <section class="section">
+      <div class="container">
+        <div class="box p-0" style="position: relative; overflow: hidden">
+          <!-- Map -->
+          <iframe
+            src="https://www.google.com/maps/place/Chinatown,+Los+Angeles,+Californie+90012,+%C3%89tats-Unis/@34.0654546,-118.2340411,15z/data=!4m6!3m5!1s0x80c2c659f50c318d:0xe2ffb80a9d3820ae!8m2!3d34.0616322!4d-118.2363171!16zL20vMDJieDd5?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
+            width="100%"
+            height="550"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+          >
+          </iframe>
+
+          <!-- Contact Overlay -->
+          <div
+            class="box"
+            style="
+              position: absolute;
+              bottom: 30px;
+              left: 30px;
+              max-width: 300px;
+              box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+              border-radius: 12px;
+            "
+          >
+            <p class="title is-6 mb-3">Main Road, No 25/11</p>
+
+            <span class="is-block"> +34 556788 3221 </span>
+
+            <span class="is-block"> contact@foodblog.com </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section End -->
+
+    <!-- Similar Recipe Section Begin -->
+
+    <section class="section">
+      <div class="container">
+        <div class="columns is-multiline">
+          <!-- Item 1 -->
+          <div class="column is-3-desktop is-6-tablet">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <a href="#">
+                    <img
+                      src="img/cat-feature/small-7.jpg"
+                      alt="Italian Tiramisu"
+                    />
+                  </a>
+                </figure>
+              </div>
+
+              <div class="card-content">
+                <p class="has-text-grey is-size-7 mb-1">Vegan</p>
+
+                <h6 class="title is-6">Italian Tiramisu with Coffee</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="column is-3-desktop is-6-tablet">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <a href="#">
+                    <img src="img/cat-feature/small-6.jpg" alt="Dry cookies" />
+                  </a>
+                </figure>
+              </div>
+
+              <div class="card-content">
+                <p class="has-text-grey is-size-7 mb-1">Vegan</p>
+
+                <h6 class="title is-6">Dry Cookies with Corn</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="column is-3-desktop is-6-tablet">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <a href="#">
+                    <img
+                      src="img/cat-feature/small-5.jpg"
+                      alt="Asparagus recipe"
+                    />
+                  </a>
+                </figure>
+              </div>
+
+              <div class="card-content">
+                <p class="has-text-grey is-size-7 mb-1">Vegan</p>
+
+                <h6 class="title is-6">
+                  Asparagus with Pork Loin and Vegetables
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="column is-3-desktop is-6-tablet">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <a href="#">
+                    <img
+                      src="img/cat-feature/small-4.jpg"
+                      alt="Smoked salmon sandwich"
+                    />
+                  </a>
+                </figure>
+              </div>
+
+              <div class="card-content">
+                <p class="has-text-grey is-size-7 mb-1">Vegan</p>
+
+                <h6 class="title is-6">
+                  Smoked Salmon mini Sandwiches with Onion
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Similar Recipe Section End -->
+  </body>
+</html>
