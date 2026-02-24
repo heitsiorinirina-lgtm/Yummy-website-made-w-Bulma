@@ -1,0 +1,51 @@
+.after::after {
+  content: "|" !important;
+  position: absolute !important;
+  right: 0 !important;
+  bottom: 25% !important;
+  width: 0 !important;
+  height: auto !important;
+  color: rgb(0, 0, 0) !important;
+  transition: 0.4s ease !important;
+}
+
+.after:hover::after {
+  left: 0 !important;
+  width: 100% !important;
+}
+
+.has-background-danger {
+  background-color: FC0254 !important;
+}
+
+.control .textarea {
+  height: 60vh !important;
+}
+
+.tag.is-danger {
+  background-color: #ff004f !important; /* adapte si besoin */
+  border-radius: 2px;
+}
+
+.section.has-background-dark {
+  background-color: #2f2f2f !important; /* gris foncé exact */
+}
+
+.box.custome {
+  background-image: url("img/map-bg.png");
+  position: absolute;
+  top: 20%;
+  right: 30px;
+  max-width: 25%;
+  height: 40vh;
+  border-radius: 0;
+}
+
+.customized {
+  background-color: #ff004f;
+
+  height: 95%;
+  border-radius: 0;
+
+  align-items: center;
+}
